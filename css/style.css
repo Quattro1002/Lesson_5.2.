@@ -1,0 +1,97 @@
+@font-face{
+	font-family: "NovemberCompressedLCG-Light";
+	src: url("../fonts/NovemberCompressedLCG-Light.woff") format("woff"), url("../fonts/NovemberCompressedLCG-Light.woff2") format("woff2");
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+
+@font-face{
+	font-family: "NovemberCompressedLCG-Bold";
+	src: url("../fonts/NovemberCompressedLCG-Bold.woff") format("woff"), url("../fonts/NovemberCompressedLCG-Bold.woff2") format("woff2");
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+}
+
+@font-face{
+	font-family: "NovemberCompressedLCG-Black";
+	src: url("../fonts/NovemberCompressedLCG-Black.woff") format("woff"), url("../fonts/NovemberCompressedLCG-Black.woff2") format("woff2");
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+}
+
+.wrapper {
+	min-height: 100%;
+	padding: 25px;
+	overflow: auto;
+}
+
+body{
+	font-family: "NovemberCompressedLCG-Light";
+	font-weight: 400;
+	font-size: 25px;
+}
+
+h2{
+	font-family: "NovemberCompressedLCG-Black";
+	font-weight: 900;
+	font-size: 45px;
+}
+
+p{
+	line-height: 2.5;
+}
+
+.img{
+	display: inline-block;
+	margin: 40px 0px 40px 170px;
+}
+
+.header{
+	text-align: center;
+}
+
+.header-headline {
+	font-family: "NovemberCompressedLCG-Black";
+	font-weight: 900;
+	font-size: 45px;
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+
+.header-menu {
+	font-family: "NovemberCompressedLCG-Bold";
+	font-weight: 700;
+	font-size: 25px;
+	margin-top: 60px;
+	margin-bottom: 100px;
+	margin-left: 600px;
+	margin-right: 600px;
+	line-height: 2.1;
+	max-height: 190px;
+	max-width: 700px;
+	overflow: auto;
+}
+
+.text-content {
+	margin: 50px 0px 0px 50px;
+	padding: 25px;
+	padding: 5px;
+	max-width: 1100px;
+}
+
+.tex-paragraph{
+	padding: 15px 0px 0px 50px;
+}
+
+.footer-link {
+	margin: 30px 0px 0px 100px;
+}
+
+span{
+	font-family: "NovemberCompressedLCG-Black";
+	font-weight: 900;
+	font-size: 25px;
+}
